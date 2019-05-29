@@ -3,3 +3,4 @@ class Hash
     array = []
     arguments.each do |x|
       self.each do |key, value|
+        
