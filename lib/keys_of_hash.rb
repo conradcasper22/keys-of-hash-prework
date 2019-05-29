@@ -4,3 +4,4 @@ class Hash
     arguments.each do |x|
       self.each do |key, value|
         if value == x
+          array << key
